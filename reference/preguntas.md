@@ -1,38 +1,45 @@
-# Preguntas de análisis (fase 2 y 3)
+# Preguntas de análisis (fases 2 y 3)
 
-Responde solo con el material de `01-inputs.md`. Si una pregunta no se puede responder con ese material, escribe `HUECO` y sigue.
+Usa solo `01-inputs.md`. Cada respuesta cita IDs. Si falta material, escribe `HUECO` y sigue. Separa `[DATO]` de `[INFERENCIA]`.
 
 ## Consenso
-- ¿Qué promesa repiten casi todos los competidores en su home?
-- ¿Qué features aparecen en todos los planes de entrada?
-- ¿Cuál es el rango de precio de entrada y qué limita cada plan barato (usuarios, contactos, features)?
-- ¿A qué cliente le hablan todos? ¿A cuál no le habla nadie?
+- ¿Qué promesa se repite en las webs? ¿En cuántas marcas y cuáles?
+- ¿Qué funciones aparecen en los planes de entrada verificados?
+- ¿Qué precios tienen moneda, mercado, periodicidad y unidad coincidentes? ¿Qué impide comparar el resto?
+- ¿A qué cliente hablan las páginas? ¿Qué segmento no aparece en la muestra, sin afirmar que nadie lo atiende?
 
 ## Creencias que el sector da por sentadas
-- Lista 7 cosas que todos los competidores asumen sin decirlo (en su mensaje, su precio o su producto).
-- Para cada una: ¿qué tendría que pasar para que fuera falsa?
-- ¿Hay alguna review, hilo o cambio de producto que sugiera que ya está dejando de ser verdad?
+- Formula hasta 7 creencias con base en IDs. Si solo hay dos, entrega dos.
+- ¿Es una creencia del proveedor o hay evidencia de que el comprador la comparte?
+- ¿Qué tendría que pasar para que fuera falsa?
+- ¿Qué reseña válida y actual, hilo o cambio de producto aporta una señal contraria?
 
 ## Dolores
-- ¿Qué quejas aparecen en reviews de 2-4 estrellas de más de un competidor?
-- ¿Qué dolor aparece en foros pero ningún competidor menciona en su web?
-- ¿Qué frase literal de cliente resume mejor cada dolor?
-- ¿Qué dolor intentan resolver los competidores pero los clientes dicen que siguen sufriendo?
+- ¿Qué quejas aparecen en fichas válidas y actuales de más de una marca? Lista IDs, menciones únicas y número de marcas.
+- ¿Hay reseñas de otro producto, duplicadas, históricas o sin fecha que deban quedar fuera?
+- ¿Qué frase resume el dolor? Conserva contexto y límite de cita por fuente.
+- ¿Qué solución o testimonio positivo contradice que nadie resuelva el dolor?
+- ¿Qué impide atribuirlo al ICP? ¿Qué sesgo introducen plataforma, estrellas, país y fecha?
 
-## Lo que saben los ganadores
-- ¿En qué está invirtiendo cada competidor según su changelog de los últimos 6 meses?
-- ¿Qué perfiles están contratando? ¿Qué apuesta revela eso?
-- ¿Qué saben los que ganan este mercado que el cliente nunca admitiría en una encuesta?
-- ¿Qué cambio de precio o de packaging reciente dice algo del comportamiento real de compra?
+## Apuestas observadas
+- ¿Qué cambios fechados se publicaron en los últimos seis meses? ¿Qué anuncian y qué no permiten concluir?
+- ¿Qué perfiles se buscan? ¿Es una foto de vacantes o existe una serie verificable de contratación?
+- ¿Qué cambio de packaging se acredita comparando dos fechas? ¿Existe conducta de compra relacionada con una decisión real?
+- Antes de hablar de crecimiento o liderazgo: ¿cuál es la métrica verificable, el periodo y la fuente? Sin ellos, escribe HUECO y limita la conclusión a una apuesta observada.
 
-## Ángulos vacíos
-- ¿Qué mensaje no está usando nadie y encaja con un dolor de la lista?
-- ¿Qué segmento del ICP está desatendido por el mensaje de todos?
-- Si tuvieras que atacar este mercado con un ángulo que nadie usa, ¿cuál sería y por qué?
+## Ángulos no observados
+- ¿Qué mensaje no aparece en las páginas y encaja con un dolor respaldado por IDs?
+- ¿Qué páginas o segmentos faltan antes de afirmar que es un vacío del sector?
+- ¿Qué hace esta propuesta específica del mercado, en vez de aplicable a cualquier negocio?
 
 ## Red-team (fase 3)
-- Defiende esta tesis como un inversor convencido. ¿Cuál es su mejor evidencia?
-- Ahora atácala: ¿qué supuesto es el más frágil?
-- ¿Qué dato del material la contradice?
-- ¿Qué haría el competidor más fuerte para neutralizarla en 3 meses?
-- ¿Esta tesis sería verdad también para cualquier otro mercado? Si sí, es genérica: descártala o hazla más específica.
+- ¿Cuál es la mejor defensa de la tesis con el material disponible?
+- ¿Qué supuesto es el más frágil? ¿Qué ID la contradice?
+- ¿Qué podría hacer un competidor para neutralizarla? Trátalo como inferencia.
+- Para cada evidencia: ¿es `P` (lo dice el proveedor), `Q` (queja del cliente) o `C` (acción concreta del cliente)? ¿Qué frase acredita la acción? Una intención no es conducta.
+- ¿La fuente es fiable o dudosa? ¿La muestra es actual y del ICP, parcial o no? ¿La ficha acredita un testimonio o verifica también lo que afirma?
+- ¿Cuántas fichas Q/C válidas y actuales, de cuántas marcas, sostienen la nota? Solo P nunca puede recibir alta ni media.
+- Si hay menos de 50 reseñas o una sola plataforma, ¿queda baja la confianza en los dolores?
+- Si hay producto propio, ¿también sufre el problema? Si no hay, anota que el contraste no aplica.
+- ¿La tesis sería válida para cualquier otro mercado? Si sí, descártala o hazla específica.
+- ¿Debe pasar, pasar condicionada o descartarse? Si ninguna pasa, entrega cero y explica qué material falta.
